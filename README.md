@@ -4,7 +4,7 @@ This repository contains the automated builds for the Zlag VPN Client.
 
 ## 📥 Direct Downloads (Latest)
 
-> **Last Updated**: Sun Feb  1 23:22:50 UTC 2026
+> **Last Updated**: Sun Feb  1 23:27:36 UTC 2026
 > **Version**: v2.0-20260201-1bb20cd
 
 | Platform | Architecture | File | Description |

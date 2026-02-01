@@ -1,1 +1,14 @@
-{ "version": "v2.0-20260201-1bb20cd", "hash": "1bb20cd4c15f358341fb2eee7282b8f2f90be94b241623cbf9cbf951c32b9abd", "date": "Sun Feb  1 23:22:50 UTC 2026" }
+{
+  "version": "v2.0-20260201-1bb20cd",
+  "hash": "1bb20cd4c15f358341fb2eee7282b8f2f90be94b241623cbf9cbf951c32b9abd",
+  "date": "Sun Feb  1 23:27:36 UTC 2026",
+  "downloads": {
+    "windows_amd64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-setup-windows-amd64.exe",
+    "windows_arm64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-setup-windows-arm64.exe",
+    "mac_amd64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-client-macos-amd64.zip",
+    "mac_arm64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-client-macos-arm64.zip",
+    "linux_amd64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-client-linux-amd64.tar.xz",
+    "linux_arm64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-client-linux-arm64.tar.xz",
+    "android_arm64": "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/latest/zlag-client-android.apk"
+  }
+}
