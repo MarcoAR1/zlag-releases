@@ -1,0 +1,16 @@
+{
+    "version":  "v2.0.1-beta.1",
+    "hash":  "c59c5d06d956f51095757f7970aff988d4e7454a4402867dfb55acdaa5c396ef",
+    "date":  "2026-09-13T09:59:08.6966932Z",
+    "channel":  "beta",
+    "source_commit":  "d641b679d5ed499c211b3050384b77a274cd1062",
+    "source_dirty":  true,
+    "downloads":  {
+                      "windows_amd64":  "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/releases/v2.0.1-beta.1/zlag-setup-windows-amd64.exe",
+                      "android_arm64":  "https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/releases/v2.0.1-beta.1/zlag-client-android.apk"
+                  },
+    "checksums":  {
+                      "zlag-client-android.apk":  "c1a78c52c2451d8be586c5f90235b5aa0795feef8cb50828ad3b4bb30596f224",
+                      "zlag-setup-windows-amd64.exe":  "c59c5d06d956f51095757f7970aff988d4e7454a4402867dfb55acdaa5c396ef"
+                  }
+}

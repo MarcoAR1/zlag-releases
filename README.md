@@ -1,24 +1,12 @@
-# Zlag VPN - Official Releases
+# Zlag VPN v2.0.1-beta.1 (beta)
 
-This repository contains the automated builds for the Zlag VPN Client.
+- Windows x64: installer includes Wintun; application has no Authenticode signature.
+- Android: directly installable signed APK. Real-device VPN validation remains pending.
+- Windows private VPS reachability was verified; actual match traffic validation remains pending.
+- Android uses net.zlag.app and a new release signing key. The February app used net.zlag.client: this beta installs as a separate app, not an in-place update of that old package.
+- macOS, iOS, Linux and Windows ARM64 are not part of this beta.
+- Automatic in-app updates are not validated. Download updates from the website.
 
-## 📥 Direct Downloads (Latest)
+[Windows installer](https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/releases/v2.0.1-beta.1/zlag-setup-windows-amd64.exe) | [Android APK](https://raw.githubusercontent.com/MarcoAR1/zlag-releases/main/releases/v2.0.1-beta.1/zlag-client-android.apk)
 
-> **Last Updated**: Sun Feb  1 23:27:36 UTC 2026
-> **Version**: v2.0-20260201-1bb20cd
-
-| Platform | Architecture | File | Description |
-|----------|--------------|------|-------------|
-| **Windows** | x86_64 (Standard) | [`zlag-setup-windows-amd64.exe`](./latest/zlag-setup-windows-amd64.exe) | Single-file Installer (Includes Wintun driver) |
-| **Windows** | ARM64 (Snapdragon) | [`zlag-setup-windows-arm64.exe`](./latest/zlag-setup-windows-arm64.exe) | Installer for Surface/Co-pilot+ PCs |
-| **macOS** | Intel | [`zlag-client-macos-amd64.zip`](./latest/zlag-client-macos-amd64.zip) | .app Bundle (Zipped) |
-| **macOS** | Apple Silicon (M1+) | [`zlag-client-macos-arm64.zip`](./latest/zlag-client-macos-arm64.zip) | .app Bundle (Zipped) |
-| **Linux** | x86_64 | [`zlag-client-linux-amd64.tar.xz`](./latest/zlag-client-linux-amd64.tar.xz) | Portable Binary |
-| **Linux** | ARM64 | [`zlag-client-linux-arm64.tar.xz`](./latest/zlag-client-linux-arm64.tar.xz) | Portable Binary for RPi/Alternatives |
-| **Android** | ARM64 | [`zlag-client-android.apk`](./latest/zlag-client-android.apk) | Standalone APK |
-
-## 📂 Repository Structure
-
-*   **/latest**: Always contains the most recent build artifacts.
-*   **/releases**: History of previous builds versioned by date/hash.
-
+Source commit: d641b679d5ed499c211b3050384b77a274cd1062. Source has local changes: True.
